@@ -72,6 +72,7 @@ Entries are added automatically on every merge to the default branch.
 - Read the Python version from the Dockerfile, the only place it is written ([#257](https://github.com/lorenzogirardi/flask-test-api/pull/257))
 - Show Trivy and Checkov findings on the run, without blocking it ([#258](https://github.com/lorenzogirardi/flask-test-api/pull/258))
 - Run the awareness tools on pull requests and add TruffleHog ([#262](https://github.com/lorenzogirardi/flask-test-api/pull/262))
+- The image job does not rebuild what the parent commit already proved ([#293](https://github.com/lorenzogirardi/flask-test-api/pull/293))
 
 ### Removed
 - `ai-autofix-main` (a PR to repair a red `main`): `agent-main-guard.yml` already takes `main` back to the last green state and the change is redone by the agent pipeline, so two systems no longer react to the same failure.
