@@ -75,6 +75,7 @@ Entries are added automatically on every merge to the default branch.
 - Run the awareness tools on pull requests and add TruffleHog ([#262](https://github.com/lorenzogirardi/flask-test-api/pull/262))
 - The image job does not rebuild what the parent commit already proved ([#293](https://github.com/lorenzogirardi/flask-test-api/pull/293))
 - Update dependency pydantic to v2.14.1 ([#294](https://github.com/lorenzogirardi/flask-test-api/pull/294))
+- One pull request per run instead of three ([#303](https://github.com/lorenzogirardi/flask-test-api/pull/303))
 
 ### Removed
 - `ai-autofix-main` (a PR to repair a red `main`): `agent-main-guard.yml` already takes `main` back to the last green state and the change is redone by the agent pipeline, so two systems no longer react to the same failure.
