@@ -69,6 +69,7 @@ Entries are added automatically on every merge to the default branch.
 - Update dependency python to 3.15 ([#245](https://github.com/lorenzogirardi/flask-test-api/pull/245))
 - Let the sweep write its review verdict as a commit status ([#246](https://github.com/lorenzogirardi/flask-test-api/pull/246))
 - Update bridgecrewio/checkov-action action to v12.3132.0 ([#247](https://github.com/lorenzogirardi/flask-test-api/pull/247))
+- Read the Python version from the Dockerfile, the only place it is written ([#257](https://github.com/lorenzogirardi/flask-test-api/pull/257))
 
 ### Removed
 - `ai-autofix-main` (a PR to repair a red `main`): `agent-main-guard.yml` already takes `main` back to the last green state and the change is redone by the agent pipeline, so two systems no longer react to the same failure.
