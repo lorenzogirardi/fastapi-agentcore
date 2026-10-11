@@ -66,6 +66,7 @@ Entries are added automatically on every merge to the default branch.
 - The scenarios also check the verdict the agents gave ([#222](https://github.com/lorenzogirardi/flask-test-api/pull/222))
 - Make the pipeline documents say what the pipeline does ([#231](https://github.com/lorenzogirardi/flask-test-api/pull/231))
 - Start the health check on events too, not only on the clock ([#244](https://github.com/lorenzogirardi/flask-test-api/pull/244))
+- Update dependency python to 3.15 ([#245](https://github.com/lorenzogirardi/flask-test-api/pull/245))
 
 ### Removed
 - `ai-autofix-main` (a PR to repair a red `main`): `agent-main-guard.yml` already takes `main` back to the last green state and the change is redone by the agent pipeline, so two systems no longer react to the same failure.
