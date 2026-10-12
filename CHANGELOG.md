@@ -78,6 +78,7 @@ Entries are added automatically on every merge to the default branch.
 - One pull request per run instead of three ([#303](https://github.com/lorenzogirardi/flask-test-api/pull/303))
 - No model call outside the graph on main ([#306](https://github.com/lorenzogirardi/flask-test-api/pull/306))
 - The graph reviews the dependency bot's pull requests too ([#307](https://github.com/lorenzogirardi/flask-test-api/pull/307))
+- The SBOM of the pull request's image is evidence for the roles ([#308](https://github.com/lorenzogirardi/flask-test-api/pull/308))
 
 ### Removed
 - `ai-autofix-main` (a PR to repair a red `main`): `agent-main-guard.yml` already takes `main` back to the last green state and the change is redone by the agent pipeline, so two systems no longer react to the same failure.
