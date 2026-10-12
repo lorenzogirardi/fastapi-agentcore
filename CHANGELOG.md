@@ -80,6 +80,7 @@ Entries are added automatically on every merge to the default branch.
 - The graph reviews the dependency bot's pull requests too ([#307](https://github.com/lorenzogirardi/flask-test-api/pull/307))
 - The SBOM of the pull request's image is evidence for the roles ([#308](https://github.com/lorenzogirardi/flask-test-api/pull/308))
 - The documents say what the pipeline does now ([#310](https://github.com/lorenzogirardi/flask-test-api/pull/310))
+- Update bridgecrewio/checkov-action action to v12.3133.0 ([#313](https://github.com/lorenzogirardi/flask-test-api/pull/313))
 
 ### Removed
 - `ai-autofix-main` (a PR to repair a red `main`): `agent-main-guard.yml` already takes `main` back to the last green state and the change is redone by the agent pipeline, so two systems no longer react to the same failure.
