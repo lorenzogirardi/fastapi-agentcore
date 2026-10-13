@@ -85,6 +85,7 @@ Entries are added automatically on every merge to the default branch.
 - Call the engine at v3, and describe the graph that starts from the architect ([#318](https://github.com/lorenzogirardi/flask-test-api/pull/318))
 - Update python docker tag to v3.15.0 ([#316](https://github.com/lorenzogirardi/flask-test-api/pull/316))
 - One engine, and Renovate may propose Python 3.15 again ([#326](https://github.com/lorenzogirardi/flask-test-api/pull/326))
+- Update python docker tag to v3.15.0 ([#327](https://github.com/lorenzogirardi/flask-test-api/pull/327))
 
 ### Removed
 - `ai-autofix-main` (a PR to repair a red `main`): `agent-main-guard.yml` already takes `main` back to the last green state and the change is redone by the agent pipeline, so two systems no longer react to the same failure.
