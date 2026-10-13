@@ -82,6 +82,7 @@ Entries are added automatically on every merge to the default branch.
 - The documents say what the pipeline does now ([#310](https://github.com/lorenzogirardi/flask-test-api/pull/310))
 - Update bridgecrewio/checkov-action action to v12.3133.0 ([#313](https://github.com/lorenzogirardi/flask-test-api/pull/313))
 - Update lorenzogirardi/ci-shared action to v3 ([#317](https://github.com/lorenzogirardi/flask-test-api/pull/317))
+- Call the engine at v3, and describe the graph that starts from the architect ([#318](https://github.com/lorenzogirardi/flask-test-api/pull/318))
 
 ### Removed
 - `ai-autofix-main` (a PR to repair a red `main`): `agent-main-guard.yml` already takes `main` back to the last green state and the change is redone by the agent pipeline, so two systems no longer react to the same failure.
