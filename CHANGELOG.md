@@ -100,3 +100,4 @@ Entries are added automatically on every merge to the default branch.
 - A certified pull request with green CI could stay open: the merge gate trusted only the repository owner while the agent workflows post as `github-actions[bot]`, and when CI ended before the certification no later event picked it up. Both are trusted now, and `agent-merge.yml` judges every open PR on each CI end, on each push to `main` and every 30 minutes.
 - Sleep endpoint rejects values that are too long ([#191](https://github.com/lorenzogirardi/flask-test-api/pull/191))
 - Restore the documented error envelope for 400 responses ([#194](https://github.com/lorenzogirardi/flask-test-api/pull/194))
+- The image goes back to Python 3.14 until the agents' engine runs on 3.15 ([#319](https://github.com/lorenzogirardi/flask-test-api/pull/319))
