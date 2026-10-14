@@ -87,6 +87,7 @@ Entries are added automatically on every merge to the default branch.
 - One engine, and Renovate may propose Python 3.15 again ([#326](https://github.com/lorenzogirardi/flask-test-api/pull/326))
 - Update python docker tag to v3.15.0 ([#327](https://github.com/lorenzogirardi/flask-test-api/pull/327))
 - Update bridgecrewio/checkov-action action to v12.3134.0 ([#331](https://github.com/lorenzogirardi/flask-test-api/pull/331))
+- Update dependency fastapi to v0.143.1 ([#333](https://github.com/lorenzogirardi/flask-test-api/pull/333))
 
 ### Removed
 - `ai-autofix-main` (a PR to repair a red `main`): `agent-main-guard.yml` already takes `main` back to the last green state and the change is redone by the agent pipeline, so two systems no longer react to the same failure.
